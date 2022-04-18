@@ -1,5 +1,7 @@
 public class PowerLogarithmic {
-    Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) throws Exception {
+        // write your code here
+        Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
         int n = sc.nextInt();
         int ans = power(x,n);
